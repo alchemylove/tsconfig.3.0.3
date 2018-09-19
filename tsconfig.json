@@ -47,5 +47,20 @@
     // "mapRoot": "",                         /* デバッガが生成された場所の代わりにマップファイルを配置する場所を指定します。 */
     // "inlineSourceMap": true,               /* 別のファイルを持つ代わりに,ソースマップで単一のファイルを出力します。 */
     // "inlineSources": true,                 /* ソースをその内部のソースマップと一緒に出力します。
-  }
+  } //,
+  // "files": [],                             /* tsconfig.jsonに 'files'または 'include'プロパティがない場合、コンパイラはデフォルトで 'exclude'で指定されたディレクトリとサブディレクトリ以外のすべてのファイルを含むようにします。が指定されている場合、それらのファイルと 'include'で指定されたファイルのみが含まれます。 */
+  // "exclude": [],                           /* コンパイルから除外するファイルのリストを指定します。 'exclude'プロパティは 'include'プロパティに含まれるファイルのみに影響し、 'files'プロパティには影響しません。 */
+  // "include": [],                           /* コンパイルに含めるファイルと一致するグロブパターンのリストを指定します。tsconfig.jsonに 'files'または 'include'プロパティがない場合、コンパイラはデフォルトで、 'exclude'で指定されたサブディレクトリ以外のサブディレクトリ。TypeScriptバージョン2.0以降が必要です。例:"src\/**\/*" */
+  // "compileOnSave": true,                   /* このプロジェクトでコンパイル時保存を有効にする */
+  // "extends": "",                           /* 継承元の基本構成ファイルへのパス.TypeScriptバージョン2.1以降が必要です。 */
+  // "typeAcquisition": {                     /* このプロジェクトの宣言ファイル（.d.ts）取得オプション。Type 2.1以降のバージョンが必要です。 */
+  //   "enable": false,                       /* 宣言ファイルの自動取得を有効にする */
+  //   "include": [],                         /* 宣言ファイルの自動取得から除外される型宣言のリストを指定します。例:[\"jquery\",\"lodash\"]  */
+  //   "exclude": []                          /* 宣言ファイルの自動取得に含める型宣言のリストを指定します。例:[\"jquery\", \"lodash\"] */
+  // },
+  // "references": [                          /* "参照されたプロジェクト。TypeScriptバージョン3.0以降が必要です。 */
+  //   {
+  //     "path": ""                           /* 参照されたtsconfigまたはtsconfigを含むフォルダへのパス。例:"..\/core\/" \"compilerOptions\"に\"composite\": true, \"declaration\": true が必要。\"outDir\": \"../../lib/bar\", \"strict\": true, \"module\": \"esnext\", \"moduleResolution\": \"node\"が関係する。 */
+  //   }
+  // ]
 }
